@@ -15,7 +15,7 @@ export default function Lab1() {
           </div>
           <div id="wd-p-tag">
               <h4>Paragraph Tag</h4>
-              <p id="wd-p-1"> ... </p>
+              <p id="wd-p-1"> </p>
               <p id="wd-p-2">
                   This is the first paragraph. The paragraph tag is used to format
                   vertical gaps between long pieces of text like this one.
@@ -45,13 +45,42 @@ export default function Lab1() {
                   <li>Flip and cook the other side.</li>
                   <li>Serve and enjoy!</li>
               </ol>
+              <h6> My favorite recipe:</h6>
+              How to make pasta:
+              <ol id="wd-your-favorite-recipe">
+                  <li>Mixing eggs and flour.</li>
+                  <li>Kneading the dough.</li>
+                  <li>Dividing the dough.</li>
+                  <li>Rolling out the pasta.</li>
+                  <li>Slicing the sheets.</li>
+                  <li>Cooking the pasta and adding salt.</li>
+                  <li>Serve and enjoy!</li>
+              </ol>
+              <h5>Unordered List Tag</h5>
+              My favorite books (in no particular order)
+              <ul id="wd-my-books">
+                  <li>Dune</li>
+                  <li>Lord of the Rings</li>
+                  <li>Ender's Game</li>
+                  <li>Red Mars</li>
+                  <li>The Forever War</li>
+              </ul>
+              Your favorite books (in no particular order)
+              <ul id="wd-your-books">
+                  <li>The Old Man and Sea</li>
+                  <li>Lord of the Rings</li>
+                  <li>Deep Waters</li>
+                  <li>The Hobbit</li>
+                  <li>Harry Potter</li>
+              </ul>
+
           </div>
           <div id="wd-tables">
               <h4>Table Tag</h4>
               <table border={1} width="100%">
                   <thead>
                   <tr>
-                      <th>Quiz</th>
+                  <th>Quiz</th>
                       <th>Topic</th>
                       <th>Date</th>
                       <th>Grade</th>
@@ -59,7 +88,7 @@ export default function Lab1() {
                   </thead>
                   <tbody>
                   <tr>
-                      <td>Q1</td>
+                  <td>Q1</td>
                       <td>HTML</td>
                       <td>2/3/21</td>
                       <td>85</td>
@@ -207,6 +236,9 @@ export default function Lab1() {
               Please
               <a id="wd-lipsum" href="https://www.lipsum.com">click here</a>
               to get dummy text<br/>
+              Please
+              <a id="wd-github" href="https://github.com/YilinLong/CS4550">click here</a>
+              to get code repository<br/>
           </div>
           <h3>Exercise 1.1</h3>
           <h3>Exercise 1.2</h3>

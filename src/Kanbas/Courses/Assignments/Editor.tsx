@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function AssignmentEditor() {
     return (
         <div id="wd-assignments-editor">
@@ -87,11 +89,25 @@ export default function AssignmentEditor() {
                 </div>
                 <div>
                     <td align="right" valign="bottom">
-                        <button id="wd-cancel">Cancel</button>
-                        <button id="wd-save">Save</button>
+                        <a href="http://localhost:3000/Kanbas/Dashboard/Assignments#/Kanbas/Courses/1234/Assignments"
+                           id="wd-cancel" className="button">
+                            <button id="wd-cancel">Cancel</button>
+                        </a>
+                        <a href="http://localhost:3000/Kanbas/Dashboard/Assignments#/Kanbas/Courses/1234/Assignments"
+                           id="wd-save" className="button">
+                            <button id="wd-save">Save</button>
+                        </a>
                     </td>
                 </div>
             </table>
         </div>
     );
 }
+// <Link id="wd-signin-btn" to="/Kanbas/Dashboard">
+//     Sign in
+// </Link>
+// <br/>
+// <Link id="wd-signup-link" to="/Kanbas/Account/Signup">
+//     Sign up
+// </Link>
+// </div>

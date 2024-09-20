@@ -91,7 +91,6 @@ export default function AssignmentEditor() {
                         <button id="wd-save">Save</button>
                     </td>
                 </div>
-                {/* Complete on your wd-submission-type own */}
             </table>
         </div>
     );

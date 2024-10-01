@@ -3,6 +3,8 @@ import Lab2 from "./Lab2";
 import {Navigate, Route, Routes} from "react-router-dom";
 import TOC from "./TOC";
 import Lab3 from "./Lab3";
+import KanbasNavigation from "../Kanbas/Navigation";
+import BootstrapNavigation from "./Lab2/BootstrapNavigation";
 
 export default function Labs() {
   return (
@@ -10,6 +12,9 @@ export default function Labs() {
           <h1>Labs</h1>
           <li>Name: Yilin Long</li>
           <li>Section: 02</li>
+          <td valign="top">
+              <BootstrapNavigation/>
+          </td>
           <TOC/>
           <Routes>
               <Route path="/" element={<Navigate to="Lab1"/>}/>

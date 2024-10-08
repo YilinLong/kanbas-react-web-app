@@ -17,6 +17,8 @@ import {BootstrapGrids} from "./BootstrapGrids";
 import {BootstrapTables} from "./BootstrapTables";
 import {BootstrapLists} from "./BootstrapLists";
 import {BootstrapForms} from "./BootstrapForms";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import BootstrapNavigation from "./BootstrapNavigation";
 export default function Lab2() {
     return (
         <div  className="container">
@@ -82,9 +84,11 @@ export default function Lab2() {
             <Flex />
             <ReactIconsSampler />
             <BootstrapGrids />
+            <ScreenSizeLabel />
             <BootstrapTables />
             <BootstrapLists />
             <BootstrapForms />
+            <BootstrapNavigation />
         </div>
     );
 }

@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 export default function AssignmentEditor() {
     return (
         <div id="wd-assignments-editor">
-            <label htmlFor="wd-name"><b>Assignment Name</b></label>
-            <p><input id="wd-name" value="A1 - ENV + HTML" /><br /><br />
+            <label htmlFor="wd-name">Assignment Name</label>
+            <p><input id="wd-name" className={'wd-assignments-editor'} value="A1 - ENV + HTML" /><br /><br />
             <textarea id="wd-description">
         The assignment is available online Submit a link to the landing page of
       </textarea>

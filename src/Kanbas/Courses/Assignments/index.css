@@ -23,7 +23,7 @@
 
 .assignment-details {
     font-size: 14px;
-    padding-left: 70px;
+    padding-left: 75px;
 }
 
 .assignment-details2 {
@@ -36,11 +36,12 @@
 }
 .red-words{
     font-size: 14px;
-    padding-left: 70px;
+    padding-left: 10px;
     color:red;
 }
 .wd-assignment-link {
     color: red;
+    padding-left: 75px;
 }
 .wd-assignments-editor {
     font-size: 20px;

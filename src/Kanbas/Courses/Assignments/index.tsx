@@ -42,48 +42,63 @@ export default function Assignments() {
                     </div>
                     <ul className="wd-lessons list-group rounded-0">
                         <li className="wd-lesson wd-green list-group-item p-3 ps-1">
-                            <BsGripVertical className="me-2 fs-3"/>
-                            <MdAssignment/>
-                            <a className="wd-assignment-link"
-                               href="#/Kanbas/Courses/1234/Assignments/123">
-                                A1 - ENV + HTML
-                            </a>
-                            <div><span className="red-words">Multiple modules </span>
-                                <span
-                                    className='assignment-details2'>| <b>Not Available Until</b> May 6 at 12:00am | </span>
-                            </div>
-                            <p><span className='assignment-details'> <b>Due</b> May 13 11:59pm | 100pts</span></p>
-                            <LessonControlButtons/>
+                            <div className='wd-grid-row'>
+                                <a className="wd-assignment-link"
+                                   href="#/Kanbas/Courses/1234/Assignments/123">
+                                    A1 - ENV + HTML
+                                </a> </div>
+
+                                <div className='wd-grid-row'>
+                                    <BsGripVertical className="fs-2"/>
+                                    <MdAssignment className="fs-2"/>
+                                    <span className="red-words ">Multiple modules </span>
+                                    <span
+                                        className='assignment-details2'>| <b>Not Available Until</b> May 6 at 12:00am | </span>
+                                    <LessonControlButtons/>
+                                </div>
+                                <div className='wd-grid-row assignment-details'>
+                                 <b>Due</b> May 13 11:59pm | 100pts </div>
+
                         </li>
                         <li className="wd-lesson wd-green list-group-item p-3 ps-1">
-                            <BsGripVertical className="me-2 fs-3"/>
-                            <MdAssignment/>
-                            <a className="wd-assignment-link"
-                               href="#/Kanbas/Courses/1234/Assignments/123">
-                                A2 - CSS + BOOTSTRAP
-                            </a>
-                            <div><span className="red-words">Multiple modules </span>
-                                <span
-                                    className='assignment-details2'>| <b>Not Available Until</b> May 13 at 12:00am | </span>
-                            </div>
-                            <p><span className='assignment-details'> <b>Due</b> May 20 11:59pm | 100pts</span></p>
-                            <LessonControlButtons/>
+                            <div className='wd-grid-row'>
+                                <a className="wd-assignment-link"
+                                   href="#/Kanbas/Courses/1234/Assignments/123">
+                                    A2 - CSS + BOOTSTRAP
+                                </a>
+                                <div className='wd-grid-row'>
+                                    <BsGripVertical className="fs-2"/>
+                                    <MdAssignment className="fs-2"/>
+                                    <span className="red-words">Multiple modules </span>
+                                    <span
+                                        className='assignment-details2'>| <b>Not Available Until</b> May 13 at 12:00am | </span>
+                                    <LessonControlButtons/>
+                                </div>
+                                <div className='wd-grid-row'>
+                                    <span className='assignment-details'> <b>Due</b> May 20 11:59pm | 100pts</span>
+                                </div>
+                                </div>
                         </li>
                         <li className="wd-lesson wd-green list-group-item p-3 ps-1">
-                            <BsGripVertical className="me-2 fs-3"/>
-                            <MdAssignment/>
-                            <a className="wd-assignment-link"
-                               href="#/Kanbas/Courses/1234/Assignments/123">
-                                A3 - JAVASCRIPT + REACT
-                            </a>
-                            <div><span className="red-words">Multiple modules </span>
-                                <span
-                                    className='assignment-details2'>| <b>Not Available Until</b> May 20 at 12:00am | </span>
+                            <div className='wd-grid-row'>
+                                <a className="wd-assignment-link"
+                                   href="#/Kanbas/Courses/1234/Assignments/123">
+                                    A3 - JAVASCRIPT + REACT
+                                </a>
                             </div>
-                            <p><span className='assignment-details'> <b>Due</b> May 27 11:59pm | 100pts</span></p>
-                            <LessonControlButtons/>
+                                <div className='wd-grid-row'>
+                                    <BsGripVertical className="fs-2"/>
+                                    <MdAssignment className="fs-2"/>
+                                    <span className="red-words">Multiple modules </span>
+                                    <span
+                                        className='assignment-details2'>| <b>Not Available Until</b> May 20 at 12:00am | </span>
+                                    <LessonControlButtons />
+                                </div>
+                                <div className='wd-grid-row'><span className='assignment-details'> <b>Due</b> May 27 11:59pm | 100pts</span>
+                            </div>
                         </li>
-                    </ul></li>
+                    </ul>
+                </li>
                     </ul>
             </div>
         </div>);

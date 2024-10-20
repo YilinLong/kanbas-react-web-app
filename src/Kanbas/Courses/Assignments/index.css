@@ -41,12 +41,19 @@
 }
 .wd-assignment-link {
     color: red;
-    padding-left: 75px;
+    padding-left: 42px;
 }
 .wd-assignments-editor {
     font-size: 20px;
     width: 100%;
 }
+
+.wd-assignments-first-line {
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+}
+
 
 .wd-description {
     font-size: 14px;
@@ -99,3 +106,4 @@
     padding-top: 25px;
     margin-bottom: 40px;
 }
+
